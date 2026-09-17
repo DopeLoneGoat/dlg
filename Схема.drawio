@@ -1,0 +1,63 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="t66KIsii9Zmts6ZJ_AyR">
+    <mxGraphModel dx="1406" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Gf4lok947XqrKwznsCBY-12" edge="1" parent="1" source="Gf4lok947XqrKwznsCBY-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Gf4lok947XqrKwznsCBY-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gf4lok947XqrKwznsCBY-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" value="Начало" vertex="1">
+          <mxGeometry height="60" width="158" x="320" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Gf4lok947XqrKwznsCBY-13" edge="1" parent="1" source="Gf4lok947XqrKwznsCBY-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Gf4lok947XqrKwznsCBY-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gf4lok947XqrKwznsCBY-5" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;span style=&quot;color: rgb(26, 26, 26); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 14px; white-space: break-spaces; background-color: rgb(255, 255, 255);&quot;&gt;Ввод: S=390, P_RR=15, P_FE=36, x&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="248" x="275" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Gf4lok947XqrKwznsCBY-14" edge="1" parent="1" source="Gf4lok947XqrKwznsCBY-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Gf4lok947XqrKwznsCBY-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gf4lok947XqrKwznsCBY-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(26, 26, 26); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 14px; white-space: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;G_RR = S / P_RR&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="158" x="320" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Gf4lok947XqrKwznsCBY-15" edge="1" parent="1" source="Gf4lok947XqrKwznsCBY-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Gf4lok947XqrKwznsCBY-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gf4lok947XqrKwznsCBY-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(26, 26, 26); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 14px; white-space: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;G_FE = S / P_FE&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="158" x="320" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Gf4lok947XqrKwznsCBY-20" edge="1" parent="1" source="Gf4lok947XqrKwznsCBY-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Gf4lok947XqrKwznsCBY-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gf4lok947XqrKwznsCBY-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(26, 26, 26); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 14px; white-space: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;C_RR = G_RR * x&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="158" x="320" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="Gf4lok947XqrKwznsCBY-22" edge="1" parent="1" source="Gf4lok947XqrKwznsCBY-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="399" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gf4lok947XqrKwznsCBY-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(26, 26, 26); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 14px; white-space: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;E = C_RR - C_FE&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="158" x="320" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="Gf4lok947XqrKwznsCBY-21" edge="1" parent="1" source="Gf4lok947XqrKwznsCBY-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Gf4lok947XqrKwznsCBY-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gf4lok947XqrKwznsCBY-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(26, 26, 26); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 14px; white-space: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;C_FE = G_FE * x&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="158" x="320" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="Gf4lok947XqrKwznsCBY-25" edge="1" parent="1" source="Gf4lok947XqrKwznsCBY-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Gf4lok947XqrKwznsCBY-24" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gf4lok947XqrKwznsCBY-23" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;span style=&quot;color: rgb(26, 26, 26); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 14px; white-space: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;Вывод: C_RR, C_FE, E&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="248" x="275" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="Gf4lok947XqrKwznsCBY-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" value="Конец" vertex="1">
+          <mxGeometry height="60" width="158" x="320" y="720" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
