@@ -1,0 +1,60 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="dhW0Mg2A5b6Ukg9iC2s9">
+    <mxGraphModel dx="1406" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ujFJf0rA2jCcaO1fkuXE-9" edge="1" parent="1" source="ujFJf0rA2jCcaO1fkuXE-1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="ujFJf0rA2jCcaO1fkuXE-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ujFJf0rA2jCcaO1fkuXE-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" value="Начало" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ujFJf0rA2jCcaO1fkuXE-12" edge="1" parent="1" source="ujFJf0rA2jCcaO1fkuXE-2" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="ujFJf0rA2jCcaO1fkuXE-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ujFJf0rA2jCcaO1fkuXE-2" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;pre style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt;&quot;&gt;scanf&lt;span style=&quot;color:#ffd702&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color:#a31515&quot;&gt;&quot;%d %d&quot;&lt;/span&gt;, &amp;amp;A, &amp;amp;B&lt;span style=&quot;color:#ffd702&quot;&gt;)&lt;/span&gt;;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="60" width="210" x="310" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="ujFJf0rA2jCcaO1fkuXE-6" edge="1" parent="1" source="ujFJf0rA2jCcaO1fkuXE-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="ujFJf0rA2jCcaO1fkuXE-5" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="219" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ujFJf0rA2jCcaO1fkuXE-4" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;pre style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt;&quot;&gt;printf&lt;span style=&quot;color:#d86ac2&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color:#a31515&quot;&gt;&quot;Направление: Налево\n&quot;&lt;/span&gt;&lt;span style=&quot;color:#d86ac2&quot;&gt;)&lt;/span&gt;;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="60" width="270" x="84" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="ujFJf0rA2jCcaO1fkuXE-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" value="Конец" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="ujFJf0rA2jCcaO1fkuXE-17" edge="1" parent="1" source="ujFJf0rA2jCcaO1fkuXE-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="ujFJf0rA2jCcaO1fkuXE-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="219" y="365" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ujFJf0rA2jCcaO1fkuXE-19" edge="1" parent="1" source="ujFJf0rA2jCcaO1fkuXE-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="ujFJf0rA2jCcaO1fkuXE-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="365" />
+              <mxPoint x="590" y="630" />
+            </Array>
+            <mxPoint x="560" y="370" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ujFJf0rA2jCcaO1fkuXE-10" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;pre style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt;&quot;&gt;&lt;span style=&quot;color:#0000ff&quot;&gt;if&lt;/span&gt; &lt;span style=&quot;color:#ffd702&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color:#d86ac2&quot;&gt;(&lt;/span&gt;A % 2 == 0&lt;span style=&quot;color:#d86ac2&quot;&gt;)&lt;/span&gt; != &lt;span style=&quot;color:#d86ac2&quot;&gt;(&lt;/span&gt;B % 2 == 0&lt;span style=&quot;color:#d86ac2&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;color:#ffd702&quot;&gt;)&lt;/span&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="110" width="270" x="280" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="ujFJf0rA2jCcaO1fkuXE-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="да" vertex="1">
+          <mxGeometry height="30" width="60" x="210" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="ujFJf0rA2jCcaO1fkuXE-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="нет" vertex="1">
+          <mxGeometry height="30" width="60" x="540" y="330" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
