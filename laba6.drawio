@@ -1,0 +1,72 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="E2hkHvNbhuAynD50UPcl">
+    <mxGraphModel dx="1414" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="x52A-JfExkWPAZRKV_6m-5" edge="1" parent="1" source="x52A-JfExkWPAZRKV_6m-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="x52A-JfExkWPAZRKV_6m-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x52A-JfExkWPAZRKV_6m-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;arcSize=50;" value="Начало" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="x52A-JfExkWPAZRKV_6m-4" edge="1" parent="1" source="x52A-JfExkWPAZRKV_6m-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="x52A-JfExkWPAZRKV_6m-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x52A-JfExkWPAZRKV_6m-2" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;pre style=&quot;font-family:&#39;Cascadia Mono&#39;;font-size:9pt;color:#000000&quot;&gt;scanf&lt;span style=&quot;color:#ffd702&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color:#a31515&quot;&gt;&quot;%lf %lf&quot;&lt;/span&gt;, &amp;amp;x, &amp;amp;y&lt;span style=&quot;color:#ffd702&quot;&gt;)&lt;/span&gt;;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="60" width="290" x="269" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="x52A-JfExkWPAZRKV_6m-8" edge="1" parent="1" source="x52A-JfExkWPAZRKV_6m-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="x52A-JfExkWPAZRKV_6m-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="181" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x52A-JfExkWPAZRKV_6m-9" edge="1" parent="1" source="x52A-JfExkWPAZRKV_6m-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="x52A-JfExkWPAZRKV_6m-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="647" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x52A-JfExkWPAZRKV_6m-3" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;pre style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; color: rgb(0, 0, 0);&quot;&gt;&lt;span style=&quot;color: rgb(255, 215, 2);&quot;&gt;(&lt;/span&gt;x &amp;gt;= 0 &amp;amp;&amp;amp; &lt;span style=&quot;color: rgb(216, 106, 194);&quot;&gt;(&lt;/span&gt;pow&lt;span style=&quot;color: rgb(26, 148, 255);&quot;&gt;(&lt;/span&gt;x, 2&lt;span style=&quot;color: rgb(26, 148, 255);&quot;&gt;)&lt;/span&gt; + pow&lt;span style=&quot;color: rgb(26, 148, 255);&quot;&gt;(&lt;/span&gt;y, 2&lt;span style=&quot;color: rgb(26, 148, 255);&quot;&gt;)&lt;/span&gt; &amp;gt;= 9&lt;span style=&quot;color: rgb(216, 106, 194);&quot;&gt;)&lt;br&gt;&lt;/span&gt; &amp;amp;&amp;amp; &lt;span style=&quot;color: rgb(216, 106, 194);&quot;&gt;(&lt;/span&gt;pow&lt;span style=&quot;color: rgb(26, 148, 255);&quot;&gt;(&lt;/span&gt;x, 2&lt;span style=&quot;color: rgb(26, 148, 255);&quot;&gt;)&lt;/span&gt; + pow&lt;span style=&quot;color: rgb(26, 148, 255);&quot;&gt;(&lt;/span&gt;y, 2&lt;span style=&quot;color: rgb(26, 148, 255);&quot;&gt;)&lt;/span&gt; &amp;lt;= 25&lt;span style=&quot;color: rgb(216, 106, 194);&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;color: rgb(255, 215, 2);&quot;&gt;)&lt;/span&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="140" width="346" x="241" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="x52A-JfExkWPAZRKV_6m-13" edge="1" parent="1" source="x52A-JfExkWPAZRKV_6m-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="x52A-JfExkWPAZRKV_6m-12">
+          <mxGeometry relative="1" x="-0.0764" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="650" />
+              <mxPoint x="414" y="650" />
+            </Array>
+            <mxPoint x="410" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x52A-JfExkWPAZRKV_6m-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;pre style=&quot;font-family:&#39;Cascadia Mono&#39;;font-size:9pt;color:#000000&quot;&gt;printf&lt;span style=&quot;color:#d86ac2&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color:#a31515&quot;&gt;&quot;Точка принадлежит заданной области&quot;&lt;/span&gt;&lt;span style=&quot;color:#d86ac2&quot;&gt;)&lt;/span&gt;;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="50" width="320" x="20" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="x52A-JfExkWPAZRKV_6m-14" edge="1" parent="1" source="x52A-JfExkWPAZRKV_6m-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="x52A-JfExkWPAZRKV_6m-12">
+          <mxGeometry relative="1" x="-0.0479" as="geometry">
+            <Array as="points">
+              <mxPoint x="647" y="650" />
+              <mxPoint x="414" y="650" />
+            </Array>
+            <mxPoint x="410" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x52A-JfExkWPAZRKV_6m-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;pre style=&quot;font-family:&#39;Cascadia Mono&#39;;font-size:9pt;color:#000000&quot;&gt;printf&lt;span style=&quot;color:#d86ac2&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color:#a31515&quot;&gt;&quot;Точка не принадлежит заданной области&quot;&lt;/span&gt;&lt;span style=&quot;color:#d86ac2&quot;&gt;)&lt;/span&gt;;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="50" width="346" x="474" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="x52A-JfExkWPAZRKV_6m-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" value="да" vertex="1">
+          <mxGeometry height="60" width="120" x="149" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="x52A-JfExkWPAZRKV_6m-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" value="нет" vertex="1">
+          <mxGeometry height="60" width="120" x="559" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="x52A-JfExkWPAZRKV_6m-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;arcSize=50;" value="Конец" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="670" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
