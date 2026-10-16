@@ -62,6 +62,9 @@ int main() {
         if (day <= 21) printf("Стрелец\n");
         else printf("Козерог\n");
         break;
+    default:
+        printf("Такого значения не существует\n");
+        break;
     }
 
     return 0;
