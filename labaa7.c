@@ -6,7 +6,7 @@ int main() {
     setlocale(LC_CTYPE, "RUS");
     int date, day, month;
 
-    printf("Введите день и месяц слитно");
+    printf("Введите день и месяц слитно ");
 
     scanf("%d", &date);
 
