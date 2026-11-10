@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+п»ї#define _CRT_SECURE_NO_WARNINGS
 #include <locale.h>
 #include <stdio.h>
 #include <string.h>
@@ -34,27 +34,27 @@ int main() {
     struct Employee employees[MAX_EMPLOYEES];
     int n;
 
-    printf("Введите количество сотрудников (5-10): ");
+    printf("Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ СЃРѕС‚СЂСѓРґРЅРёРєРѕРІ (5-10): ");
     scanf("%d", &n);
 
     if (n < 1 || n > MAX_EMPLOYEES) {
-        printf("Неверное количество\n");
+        printf("РќРµРІРµСЂРЅРѕРµ РєРѕР»РёС‡РµСЃС‚РІРѕ\n");
         return 1;
     }
 
     for (int i = 0; i < n; i++) {
-        printf("\nСотрудник %d\n", i + 1);
-        printf("Фамилия: ");
+        printf("\nРЎРѕС‚СЂСѓРґРЅРёРє %d\n", i + 1);
+        printf("Р¤Р°РјРёР»РёСЏ: ");
         scanf("%s", employees[i].famil);
-        printf("Имя: ");
+        printf("РРјСЏ: ");
         scanf("%s", employees[i].name);
-        printf("Отчество: ");
+        printf("РћС‚С‡РµСЃС‚РІРѕ: ");
         scanf("%s", employees[i].otchestvo);
-        printf("Должность: ");
+        printf("Р”РѕР»Р¶РЅРѕСЃС‚СЊ: ");
         scanf("%s", employees[i].dolzhnost);
-        printf("Зарплата: ");
+        printf("Р—Р°СЂРїР»Р°С‚Р°: ");
         scanf("%lf", &employees[i].zarplata);
-        printf("Дата рождения (день месяц год): ");
+        printf("Р”Р°С‚Р° СЂРѕР¶РґРµРЅРёСЏ (РґРµРЅСЊ РјРµСЃСЏС† РіРѕРґ): ");
         scanf("%d %d %d", &employees[i].birthDate.day,
             &employees[i].birthDate.month,
             &employees[i].birthDate.year);
@@ -67,13 +67,13 @@ int main() {
         }
     }
 
-    printf("Самый молодой сотрудник:\n");
-    printf("Фамилия:    %s\n", employees[youngestIndex].famil);
-    printf("Имя:        %s\n", employees[youngestIndex].name);
-    printf("Отчество:   %s\n", employees[youngestIndex].otchestvo);
-    printf("Должность:  %s\n", employees[youngestIndex].dolzhnost);
-    printf("Зарплата:   %.2f\n", employees[youngestIndex].zarplata);
-    printf("Дата рождения: %d.%d.%d\n",
+    printf("РЎР°РјС‹Р№ РјРѕР»РѕРґРѕР№ СЃРѕС‚СЂСѓРґРЅРёРє:\n");
+    printf("Р¤Р°РјРёР»РёСЏ:    %s\n", employees[youngestIndex].famil);
+    printf("РРјСЏ:        %s\n", employees[youngestIndex].name);
+    printf("РћС‚С‡РµСЃС‚РІРѕ:   %s\n", employees[youngestIndex].otchestvo);
+    printf("Р”РѕР»Р¶РЅРѕСЃС‚СЊ:  %s\n", employees[youngestIndex].dolzhnost);
+    printf("Р—Р°СЂРїР»Р°С‚Р°:   %.2f\n", employees[youngestIndex].zarplata);
+    printf("Р”Р°С‚Р° СЂРѕР¶РґРµРЅРёСЏ: %d.%d.%d\n",
         employees[youngestIndex].birthDate.day,
         employees[youngestIndex].birthDate.month,
         employees[youngestIndex].birthDate.year);
